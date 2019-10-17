@@ -1,0 +1,21 @@
+While using the class in the python file
+
+we will import the module name "unittest"
+
+at first we will create the class named as setup class
+
+
+After that we will create another function name "test_logion_valid"
+        for the applying credentials in the login page
+
+
+and finally we will create the function 
+        as tearDownClass
+
+
+keeping in mind 
+'''
+tearDown(self) will run after every test and 
+tearDown class will run only once(after all the test has been completed)
+
+'''
