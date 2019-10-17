@@ -8,6 +8,9 @@ from selenium.webdriver.firefox.webdriver import *
 import unittest
 import HtmlTestRunner
 
+from selenium_project import login_page
+from selenium_project import homepage
+
 
 class LoginTest(unittest.TestCase):
     @classmethod
@@ -31,4 +34,7 @@ class LoginTest(unittest.TestCase):
         cls.driver.quit()
     if __name__ == '__main__':
         unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="C:/Users/Sidd/PycharmProjects/selenium_project/reports/reports.html"))
+
+
+
 
