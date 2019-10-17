@@ -19,3 +19,15 @@ tearDown(self) will run after every test and
 tearDown class will run only once(after all the test has been completed)
 
 '''
+
+
+configure the python scripting by "Edit Configuration Menu"
+in that select the module name as class name for "example -> LoginTest(unittest.TestCase)
+
+
+
+    if we will add the "   if __name == '__main__'   " :
+                            then in the command prompt we will not use the python -m unittest program_name.py
+                            in that case we will not use the "-m" ->flag
+                            we will simply call the python cmd for the intrepeture
+                                i,e python program_name.py  
