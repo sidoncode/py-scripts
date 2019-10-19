@@ -30,5 +30,5 @@ class LoginTest(unittest.TestCase):
         cls.driver.close()
         cls.driver.quit()
     if __name__ == '__main__':
-        unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="C:/Users/Sidd/PycharmProjects/selenium_project/reports/reports.html"))
-
+        #unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="C:/Users/Sidd/PycharmProjects/selenium_project/reports/reports.html"))
+        unittest.main();
